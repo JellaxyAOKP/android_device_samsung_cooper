@@ -33,7 +33,7 @@ wifi.supplicant_scan_interval=15
 ## Dalvik
 dalvik.vm.lockprof.threshold=500
 dalvik.vm.dexopt-flags=m=y
-dalvik.vm.heapstartsize=5m  
+dalvik.vm.heapstartsize=5m	
 dalvik.vm.heapgrowthlimit=24m	
 dalvik.vm.heapsize=48m
 dalvik.vm.execution-mode=int:jit
@@ -68,3 +68,9 @@ ro.media.enc.vid.bps.min =90000
 ro.media.enc.vid.bps.max =770000
 ro.media.enc.vid.fps.min = 5
 ro.media.enc.vid.fps.max = 15
+
+## Hardware info
+ro.device.gpu=Adreno 200
+ro.device.rear_cam=3.2 MP
+ro.device.front_cam=n/a
+ro.device.screen_res=320x480
