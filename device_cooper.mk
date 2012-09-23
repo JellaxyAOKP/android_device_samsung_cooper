@@ -33,7 +33,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/samsung/cooper/ramdisk/init.gt-s5830board.rc:root/init.gt-s5830board.rc \
     device/samsung/cooper/ramdisk/ueventd.gt-s5830board.rc:root/ueventd.gt-s5830board.rc \
-    device/samsung/cooper/ramdisk/GIO.rle:root/GIO.rle
+    device/samsung/cooper/ramdisk/COOPER.rle:root/COOPER.rle
 
 ## LDPI assets
 PRODUCT_AAPT_PREF_CONFIG := mdpi
