@@ -26,14 +26,13 @@
          be empty.  An example would be "usb.*" -->
     <string-array translatable="false" name="config_tether_usb_regexs">
         <item>"usb\\d"</item>
-        <item>"rndis\\d"</item>
     </string-array>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
          should be empty.  An example would be "softap.*" -->
     <string-array translatable="false" name="config_tether_wifi_regexs">
-        <item>"wlan\\d"</item>
+        <item>"athap0"</item>
     </string-array>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
@@ -58,10 +57,10 @@
     <bool name="config_intrusiveNotificationLed">false</bool>
 
     <!-- Component name of the service providing network location support. -->
-    <string name="config_networkLocationProviderPackageName">com.google.android.location.NetworkLocationProvider</string>
+    <string name="config_networkLocationProviderPackageName" translatable="false">com.google.android.location</string>
 
     <!-- Component name of the service providing geocoder API support. -->
-    <string name="config_geocodeProviderPackageName">com.google.android.location.GeocodeProvider</string>
+    <string name="config_geocodeProviderPackageName" translatable="false">com.google.android.location</string>
 
     <!-- Boolean indicating if current platform supports bluetooth SCO for off call
     use cases -->
